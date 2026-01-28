@@ -62,6 +62,18 @@ ul {
 .hero {
   padding: 80px 24px;
   text-align: center;
+  animation: SlideIn 2s ease;
+}
+
+@keyframes SlideIn {
+  from {
+    transform: translateX(-30px);
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
 }
 
 .hero h2 {
