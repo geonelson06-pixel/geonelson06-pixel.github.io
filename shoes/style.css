@@ -1,0 +1,113 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+img {
+  width: 100%;
+}
+
+ul {
+  list-style: none;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  color: #333;
+  padding: 20px;
+}
+
+header {
+  padding-bottom: 20px;
+  border-bottom: 1px solid #d1d1d1;
+}
+
+nav>a {
+  font-size: 1.3rem;
+  text-decoration: none;
+  color: #333;
+  font-weight: bold;
+}
+
+nav>a:hover {
+  text-decoration: underline;
+}
+
+header>input {
+  padding: 10px 20px;
+}
+
+footer {
+  border-top: 1px solid #d1d1d1;
+  padding-top: 20px;
+}
+
+/* ================================ */
+/* Add your CSS below this line */
+/* ================================ */
+
+figure {
+  max-width: 300px;
+}
+
+header,
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav {
+  gap: 20px;
+}
+
+h1 {
+  padding-top: 40px;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+
+#sidebar-container {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+#product-container {
+  display: grid;
+  gap: 20px;
+  grid-template-columns: 1fr;
+}
+
+section {
+  display: flex;
+  flex: 1;
+  gap: 40px;
+}
+
+figcaption {
+  font-weight: bold;
+}
+
+@media (min-width: 768px) {
+  #product-container {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (min-width: 992px) {
+  #product-container {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+@media (min-width: 1200px) {
+  #product-container {
+    grid-template-columns: repeat(4, 1fr);
+  }
+}
