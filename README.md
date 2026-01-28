@@ -1,5 +1,5 @@
 # geonelson06-pixel.github.io
-
+Link to AI Document: "https://docs.google.com/document/d/1VHxOAJ5UP71Ct_ywutPFC7mUJcwMc9z-ZMNCjAZo8y4/edit?tab=t.0"
 
 1. Share one technical concept that you developed greater mastery over in this project. Demonstrate how you understand that concept by sharing your mental model of the concept. Then, show how you used that concept in your project.
 
